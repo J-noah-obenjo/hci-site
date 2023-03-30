@@ -1,0 +1,144 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Dawn Medics</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!--Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medicio
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="align-items-center d-none d-md-flex">
+        <i class="bi bi-clock"></i> WELCOME
+        
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="bi bi-phone"></i> Call us now +254702620221</div>
+    </div>
+    <div> Date: <span id="datetime"></span>
+    <script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+    </script>
+
+    </div> 
+
+  </div>
+    <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" height="46"></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+                <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+</div>
+</header>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+          <div class="container">
+            
+<div id="content">
+    <div class="wrapper">
+      <div class="aside maxheight">
+        <!-- box begin -->
+        <div class="box maxheight">
+          <div class="inner">
+            <h3>Reservation:Room</h3>
+            <form action="#" id="reservation-form">
+              <fieldset>
+              <div class="field">
+                <p><label>Check In:</label></p>
+                <select class="select1">
+                  <option>30</option>
+                  <option>31</option>
+                </select>
+                <select class="select2">
+                  <option>Mar 2023</option>
+                </select>
+              </div>
+              <div class="field">
+               <p> <label>Check Out:</label></p>
+                <select class="select1">
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                  <option>04</option>
+                  <option>05</option>
+                </select>
+                <select class="select2">
+                  <option>April 2023</option>
+                  <option>May 2023</option>
+                  <option>June 2023</option>
+                </select>
+              </div>
+              <p><div class="field"> Persons:  </div></p>
+                <input type="text" value=""/>
+                <input type="text" value=""/>
+                <input type="text" value=""/>
+                <input type="text" value=""/>
+       <P> Rooms:
+              <label for="rooms"> Choose a Room: </label>
+              <select name="rooms" id="rooms">
+              <option
+              value="Room 1"> Room 1</option>
+              <option
+              value="Room 2"> Room 2</option>
+              <option
+              value="Room 3"> Room 3</option>
+              <option
+              value="Room 4"> Room 4</option></select>
+
+                
+              </div>
+              <div class="button"><span><span><a href="rooms.html">Check Availability</a></span></span></div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
